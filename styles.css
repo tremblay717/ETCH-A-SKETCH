@@ -143,7 +143,7 @@ body {
     height: 650px;
     border: solid #183029;
     border-width: 5px;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
 }
 
 .footer {
@@ -228,3 +228,28 @@ body {
     align-content: center;
     gap: 15px;
 }
+
+.slidecontainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    cursor: pointer;
+
+}
+
+.slider {
+    -webkit-appearance: none;
+    width: 100px;
+    height: 20px;
+    opacity: 2;
+   }
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance:none;
+    cursor: pointer;
+    background: #34495E  ;
+    width: 5%;
+    height: 20px;
+}
+
