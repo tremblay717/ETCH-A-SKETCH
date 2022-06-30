@@ -111,6 +111,13 @@ function GenerateGrid() {
     grid();
     sliderMessage.classList.add('content');
     sliderMessage.textContent = slider.value + " X " + slider.value + " Grid";
+      const boxes = document.querySelectorAll('.smallDiv');
+
+  boxes.forEach(box => {
+    box.addEventListener('mouseover', function handleClick() {
+      box.style.backgroundColor = "black";
+    });
+  });
   }
 }
 
