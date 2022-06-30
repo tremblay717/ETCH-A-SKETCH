@@ -10,11 +10,20 @@
 </head>
 
 <body>
-    <div class="header">
+    <div class="header" id="header">
         <h1>Etch-a-Sketch </h1>
     </div>
-    <div class="bigBox"  id="bigBox"></div>
-    <div class="footer"><p>Christophe Tremblay © 2022</p></div>
+
+    <div class="bigBox" id="bigBox"></div>
+    <div class="buttomButtons">
+        <div class="newGrid"><button class="newGrid" id="newGrid" onclick="GenerateGrid()">Change Grid Size</button>
+        </div>
+        <div class="resetBox"><button class="resetButton" id="resetButton">Reset</button></div>
+    </div>
+    
+    <div class="footer">
+        <p>Christophe Tremblay © 2022</p>
+    </div>
     <script src="script.js"></script>
 </body>
 
